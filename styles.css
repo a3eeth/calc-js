@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div.calcFrame {
+    border: 2px solid grey;
+    height: 500px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+div.screen {
+    background: black;
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+    color: white;
+    font-size: 5em;
+    text-align: end;
+}
+/* keypad row height 100 */
+div.keypad {
+    display: grid;
+    grid-template-columns: repeat(4,90px);
+    padding: calc((400px - 360px)/2);
+}
+div.key {
+    height: 90px;
+    border: 1px solid;
+    font-size: 45px;
+    text-align: center;
+}
