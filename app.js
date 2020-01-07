@@ -57,5 +57,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     k0.addEventListener('click', function(){
         screen.textContent += 0;
     });
-
-});
+    ce.addEventListener('click', function() {
+        screen.textContent = "";
+        output = 0;
+        runtotal = 0;
+    });
+    pl.addEventListener('click', function() {
+        runtotal = screen.innerHTML;
+        console.log(runtotal);
+        screen.textContent = "";
+    });
+}); 
