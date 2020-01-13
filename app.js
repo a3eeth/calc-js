@@ -63,6 +63,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         runtotal = 0;
     });
     pl.addEventListener('click', function() {
+        // var beforeplus = screen.innerHTML;
+        // runtotal += beforeplus;
         runtotal = screen.innerHTML;
         console.log(runtotal);
         screen.textContent = "";
